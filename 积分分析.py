@@ -49,7 +49,7 @@ modeCountDf.columns = ['modeCount']
 finalDf = pd.concat([groupedDf, modeDf], axis=1)
 finalDf = pd.concat([finalDf,modeCountDf], axis=1)
 
-path = '/home/gan1386/Documents/博升-积分调查/'
+path = '/home/gan1386/Documents/bosheng-cgpa-stats-2020/'
 
 modeOutput = 'modeList.csv'
 modeListDf.to_csv(path+modeOutput)

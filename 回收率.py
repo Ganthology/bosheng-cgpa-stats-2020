@@ -44,7 +44,7 @@ print(finalNp)
 finalDf = pd.DataFrame(finalNp, columns=['Course', 'Total Collected', 'Total Chinese', '回收率'])
 print(finalDf.head(5))
 
-path = '/home/gan1386/Documents/博升-积分调查/'
+path = '/home/gan1386/Documents/bosheng-cgpa-stats-2020/'
 
 outputFilename = '回收率.csv'
 finalDf.to_csv(path+outputFilename)
