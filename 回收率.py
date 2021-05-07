@@ -1,7 +1,8 @@
 import pandas as pd
 import numpy as np
 
-filename = '2020_2021 大学新生入学积分调查表格 (Responses) - Form Responses 1.csv'
+# filename = '2020_2021 大学新生入学积分调查表格 (Responses) - Form Responses 1.csv'
+filename = '2020_2021 大学新生入学积分调查表格 (Responses).csv'
 responseDf = pd.read_csv(filename)
 batch = '请问你是今年第一批入学的新生吗？ (无经过任何上诉管道以及根据大学录取通知书)' 
 course = '科系 (只选择一个来填写）'

@@ -1,6 +1,8 @@
 import pandas as pd
 
-filename = '2020_2021 大学新生入学积分调查表格 (Responses) - Form Responses 1.csv'
+# filename = '2020_2021 大学新生入学积分调查表格 (Responses) - Form Responses 1.csv'
+# responseDf = pd.read_csv(filename)
+filename = '2020_2021 大学新生入学积分调查表格 (Responses).csv'
 responseDf = pd.read_csv(filename)
 #Show total response we collected
 print(responseDf.info())
@@ -51,8 +53,8 @@ finalDf = pd.concat([finalDf,modeCountDf], axis=1)
 
 path = '/home/gan1386/Documents/bosheng-cgpa-stats-2020/'
 
-modeOutput = 'modeList.csv'
+modeOutput = 'modeListNew.csv'
 modeListDf.to_csv(path+modeOutput)
 
-output = 'finalResults.csv'
+output = 'finalResultsNew.csv'
 finalDf.to_csv(path+output)
