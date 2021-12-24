@@ -11,7 +11,7 @@ The second script is to calculate the ratio of completeness for the responses co
 There are 3 output files produced from the scripts.
 The first one is a csv file containing the cgpa categorised and the count, all grouped by the course.The second file is a csv file containing the tabulation of the data, including mean, mode, min, max, count of the response input data received. The third file is a csv file containing converted ratio for the completeness of the response received to the total number of students in the first batch.
 
-The script for tabulating mean mode median has been rewritten into a streamlit app for the convenience of other users. The streamlit app are deployed to Heroku, https://bosheng-analysis.herokuapp.com.
+The script for tabulating mean mode median has been rewritten into a streamlit app for the convenience of other users. The streamlit app are deployed using Streamlit's services, https://share.streamlit.io/ganthology/bosheng-cgpa-stats-2020/main/analysis.py.
 
 The input and output file format for this app is .csv format.
 
